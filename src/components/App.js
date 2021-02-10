@@ -8,7 +8,8 @@ import reducer from '../reducers/index'
 
 const App = () => {
   const initailState = {
-    events: []
+    events: [],
+    operationLogs: []
   }
   const [state, dispatch] = useReducer(reducer, initailState)
   return (
